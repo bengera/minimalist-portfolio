@@ -1,0 +1,44 @@
+.btn-primary {
+    width: 200px;
+    height: 48px;
+    background-color: $color-dark-blue;
+    border: 0;
+    text-transform: uppercase;
+    color: #FFF;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 1.5rem;
+
+    &:hover {
+        background-color: $color-cyan;
+    }
+
+
+    &:before {
+        content:"";
+        width: 48px;
+        height: 48px;
+        background-image: url(../images/icons/down-arrows.svg);
+        background-color: hsl(207, 39%, 20%);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 20px 20px;
+        position: absolute;
+        top: 0;
+        left:0;
+        
+        
+
+        
+    }
+
+    
+}
+
+.btn-primary:hover:before {
+    background-color: #52ad9a;
+    
+}

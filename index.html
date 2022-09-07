@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
   <title>Frontend Mentor | Minimalist Portfolio</title>
 </head>
+
 <body>
+
+  <nav class="navigation-top">
+    <img src="./images/logo.svg" alt="" class="navigation-top__logo">
+    <button class="hamburger-menu"></button>
+    <ul class="nav-primary">
+      <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Home</a></li>
+      <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Portfolio</a></li>
+      <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+  <header class="header">
+    <div class="header__top">
+      <div class="header__hero-img"></div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__introduction-box">
+        <h1 class="header__heading"> Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+        <button class="header__btn-about-me btn-primary">About Me</button>
+      </div>
+    </div>
+
+  </header>
+
+
+
   
-  Home
-  Portfolio
-  Contact Me
 
-  Hey, I’m Alex Spencer and I love building beautiful websites
 
-  About Me
 
-  About Me
 
-  I’m a junior front-end developer looking for a new role in an exciting company. 
-  I focus on writing accessible HTML, using modern CSS practices and writing clean 
-  JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to 
-  whatever tools are required. I’m based in London, UK, but I’m happy working remotely 
-  and have experience in remote teams. When I’m not coding, you’ll find me outdoors. 
-  I love being out in nature whether that’s going for a walk, run or cycling. I’d love 
-  you to check out my work.
+<section class="about">
+  <div class="about left-content">
+  <img src="./images/homepage/mobile/image-homepage-profile.jpg" alt="profile picture" class="about__profile">
+</div>
+<div class="about right-content">
+  <h1 class="about__heading">About Me</h1>
+  <p class="about__description">
+    I’m a junior front-end developer looking for a new role in an exciting company.
+    I focus on writing accessible HTML, using modern CSS practices and writing clean
+    JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to
+    whatever tools are required. I’m based in London, UK, but I’m happy working remotely
+    and have experience in remote teams. When I’m not coding, you’ll find me outdoors.
+    I love being out in nature whether that’s going for a walk, run or cycling. I’d love
+    you to check out my work.
+  </p>
+  <button class="about__btn-cta">Go to Portfolio</button>
+</div>
+</section>
+  
 
-  Go to Portfolio
+ 
+</main>
+  <!-- Go to Portfolio
 
   Interested in doing a project together?
 
-  Contact Me
+  Contact Me -->
 
 </body>
+
 </html>

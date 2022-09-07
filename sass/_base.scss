@@ -1,0 +1,66 @@
+$color-cyan: #5FB4A2;
+$color-dark-blue: #203A4C;
+$color-grayish-dark-blue: #33323D;
+$color-very-light-grey: #FAFAFA; //BG
+$color-light-grey: #EAEAEB; // text-field
+$color-red: #F43030; //errors
+
+$font-primary: 'Ibarra Real Nova',
+serif,
+sans-serif;
+$font-secondary: 'Public Sans',
+sans-serif;
+
+
+$bp-tablet : 37.5em; //600
+$bp-desktop : 62.5em; //1000
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+
+}
+
+body {
+    font-family: $font-secondary;
+    font-size: 16px;
+    max-width: 1140px;
+    line-height: 26px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    // padding: 1.5rem;
+    background-color: $color-very-light-grey;
+
+
+}
+
+main {
+    max-width: 1920px;
+    padding: 1.5rem;
+    
+    
+}
+
+h1 {
+    font-family: $font-primary;
+    color: $color-grayish-dark-blue;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+}
+

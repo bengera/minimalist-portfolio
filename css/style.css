@@ -326,7 +326,7 @@ body {
 
 main {
   max-width: 1920px;
-  padding: 1.5rem; }
+  padding: 0 2.1rem; }
 
 h1 {
   font-family: "Ibarra Real Nova", serif, sans-serif;
@@ -397,9 +397,9 @@ h1 {
 
 .header {
   margin-bottom: 96px; }
-  .header__top {
-    background-image: url(../images/homepage/mobile/image-homepage-hero.jpg);
-    height: 385px;
+  .header__hero-img {
+    background-image: url(../images/homepage/mobile/image-homepage-hero@2x.jpg);
+    height: 277px;
     background-size: cover;
     max-width: 441px;
     margin: 0 auto;
@@ -407,8 +407,7 @@ h1 {
     background-position: center; }
 
 .about {
-  max-width: 325px;
-  margin: 0 auto; }
+  max-width: 325px; }
   .about__profile {
     border-bottom: 2px solid #e6e3e3;
     padding-bottom: 2rem; }

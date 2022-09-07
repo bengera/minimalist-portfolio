@@ -50,19 +50,22 @@
 .header {
 
     margin-bottom: 96px;
+    
 
     &__top {
         
-        background-image: url(../images/homepage/mobile/image-homepage-hero.jpg);
-        height: 385px;
+       
+    }
+
+    &__hero-img {
+        background-image: url(../images/homepage/mobile/image-homepage-hero@2x.jpg);
+        height: 277px;
         background-size: cover;
         max-width: 441px;
         margin: 0 auto;
         background-repeat: no-repeat;
         background-position: center;
     }
-
-    // &__hero-img {}
 
     &__bottom {
         // margin-left: 1.3rem;

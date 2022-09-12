@@ -1,5 +1,5 @@
 .about {
-    max-width: 325px;
+    // max-width: 325px;
     margin-bottom: 65px;
     margin: 0 auto;
 
@@ -8,6 +8,7 @@
     &__profile {
         border-bottom: 2px solid #e6e3e3;
         padding-bottom: 2rem;
+        width: 350px;
     }
 
     &__right-content {

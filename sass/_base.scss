@@ -50,7 +50,7 @@ body {
 
 main {
     max-width: 1920px;
-    padding: 0 2.1rem;
+    padding: 0 1.8rem;
     
     
 }
@@ -79,8 +79,35 @@ h1 {
 }
 
 
-//CONTACT SECTION
-.contact {
-    text-align: center;
-   
+// FOOTER 
+
+.footer {
+
+    &__right-content {
+
+    }
+    
+    &__left-content {
+        
+    }
+
+    &__nav {
+        
+    }
+
+    &__nav-list {
+        
+    }
+
+    &__nav-item {
+        
+    }
+
+    &__nav-link {
+        
+    }
+
+    &__logo {
+        
+    }
 }

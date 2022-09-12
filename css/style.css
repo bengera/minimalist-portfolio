@@ -326,7 +326,7 @@ body {
 
 main {
   max-width: 1920px;
-  padding: 0 2.1rem; }
+  padding: 0 1.8rem; }
 
 h1 {
   font-family: "Ibarra Real Nova", serif, sans-serif;
@@ -348,9 +348,6 @@ h1 {
   letter-spacing: 2px;
   text-align: left;
   cursor: pointer; }
-
-.contact {
-  text-align: center; }
 
 .btn-primary {
   width: 200px;
@@ -412,7 +409,8 @@ h1 {
   background-image: url(../images/icons/close.svg); }
 
 .header {
-  margin-bottom: 96px; }
+  margin-bottom: 96px;
+  padding: 0 1.8rem; }
   .header__hero-img {
     background-image: url(../images/homepage/mobile/image-homepage-hero@2x.jpg);
     height: 277px;
@@ -423,13 +421,19 @@ h1 {
     background-position: center; }
 
 .about {
-  max-width: 325px;
   margin-bottom: 65px;
   margin: 0 auto; }
   .about__profile {
     border-bottom: 2px solid #e6e3e3;
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    width: 350px; }
   .about__description {
     color: #33323D;
     margin-bottom: 24px;
     opacity: 0.8; }
+
+.contact {
+  text-align: center;
+  padding: 3em;
+  border-top: 2px solid #e6e3e3;
+  margin-top: 3rem; }

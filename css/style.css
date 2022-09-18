@@ -349,6 +349,40 @@ h1 {
   text-align: left;
   cursor: pointer; }
 
+.footer {
+  height: 354px;
+  background-color: #33323D; }
+  .footer__left-content {
+    text-align: center;
+    padding-top: 56px; }
+  .footer__nav {
+    width: 104px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 40px; }
+  .footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Public Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .footer__nav-link {
+    color: #fff;
+    font-family: inherit;
+    text-decoration: none; }
+  .footer__social-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 40px; }
+
 .btn-primary {
   width: 200px;
   height: 48px;
@@ -379,6 +413,10 @@ h1 {
 
 .btn-primary:hover:before {
   background-color: #52ad9a; }
+
+.btn-cta {
+  width: 162px;
+  text-align: center; }
 
 .navigation-top {
   display: flex;
@@ -432,8 +470,12 @@ h1 {
     margin-bottom: 24px;
     opacity: 0.8; }
 
+button.about:nth-child(3) {
+  width: 202px; }
+
 .contact {
   text-align: center;
   padding: 3em;
   border-top: 2px solid #e6e3e3;
-  margin-top: 3rem; }
+  margin-top: 4rem;
+  height: 370px; }

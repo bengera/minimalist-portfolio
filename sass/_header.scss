@@ -7,6 +7,17 @@
     height: 186px;
     background-color: $color-grayish-dark-blue;
 
+    @media only screen and (min-width: $bp-tablet) {
+        display: block;
+        position: static;
+        z-index: 1000;
+        height: auto;
+        width: auto;
+        background-color: transparent;
+        align-self: center;
+        
+    }
+
 }
 
 .nav-container.show {
@@ -20,12 +31,14 @@
     justify-content: space-between;
     padding: 2rem;
 
-
+    @media only screen and (min-width: $bp-tablet) {
+     padding: 47px 2rem;   
+    }
 
 }
 
 .nav-primary {
-    // border: 2px solid teal;
+
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -38,8 +51,12 @@
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     margin-top: 20%;
+
+    @media only screen and (min-width: $bp-tablet) {
+        flex-direction: row;
+        margin-top: 0rem;
+    }
 
     &__list-item {}
 
@@ -47,6 +64,10 @@
         color: #fff;
         font-family: inherit;
         text-decoration: none;
+
+        @media only screen and (min-width: $bp-tablet) {
+            color: $color-grayish-dark-blue;
+        }
     }
 
 }
@@ -82,7 +103,7 @@
 .header {
 
     @media only screen and (min-width: $bp-tablet) {
-        position: relative;       
+        position: relative;
 
     }
 
@@ -92,6 +113,12 @@
     // &__top {
 
 
+    // }
+
+    // &__introduction-box {
+    //     @media only screen and (min-width: $bp-tablet) {
+    //         paddding: 1.1rem;
+    //     }
     // }
 
     &__hero-img {
@@ -105,7 +132,7 @@
 
         @media only screen and (min-width: $bp-tablet) {
             background-image: url(../images/homepage/tablet/image-homepage-hero@2x.jpg);
-            height: 551px;
+            height: 560px;
             max-width: 100%;
         }
     }
@@ -116,6 +143,7 @@
             bottom: 0;
             background-color: #FFF;
             max-width: 515px;
+            padding: 1rem 2rem 1rem 0;
 
         }
     }

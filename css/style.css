@@ -335,9 +335,6 @@ h1 {
   font-weight: 700;
   line-height: 42px;
   letter-spacing: -0.3571428656578064px; }
-  @media only screen and (min-width: 37.5em) {
-    h1 {
-      margin: 1em 0; } }
 
 .btn-cta {
   text-transform: uppercase;
@@ -395,6 +392,15 @@ h1 {
   width: 223px;
   height: 186px;
   background-color: #33323D; }
+  @media only screen and (min-width: 37.5em) {
+    .nav-container {
+      display: block;
+      position: static;
+      z-index: 1000;
+      height: auto;
+      width: auto;
+      background-color: transparent;
+      align-self: center; } }
 
 .nav-container.show {
   display: block; }
@@ -404,6 +410,9 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   padding: 2rem; }
+  @media only screen and (min-width: 37.5em) {
+    .navigation-top {
+      padding: 47px 2rem; } }
 
 .nav-primary {
   display: flex;
@@ -419,10 +428,17 @@ h1 {
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-top: 20%; }
+  @media only screen and (min-width: 37.5em) {
+    .nav-primary {
+      flex-direction: row;
+      margin-top: 0rem; } }
   .nav-primary__list-link {
     color: #fff;
     font-family: inherit;
     text-decoration: none; }
+    @media only screen and (min-width: 37.5em) {
+      .nav-primary__list-link {
+        color: #33323D; } }
 
 .hamburger-menu {
   background-color: transparent;
@@ -459,14 +475,15 @@ h1 {
     @media only screen and (min-width: 37.5em) {
       .header__hero-img {
         background-image: url(../images/homepage/tablet/image-homepage-hero@2x.jpg);
-        height: 551px;
+        height: 560px;
         max-width: 100%; } }
   @media only screen and (min-width: 37.5em) {
     .header__bottom {
       position: absolute;
       bottom: 0;
       background-color: #FFF;
-      max-width: 515px; } }
+      max-width: 515px;
+      padding: 1rem 2rem 1rem 0; } }
 
 .about {
   margin-bottom: 65px;

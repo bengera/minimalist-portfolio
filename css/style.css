@@ -488,17 +488,42 @@ h1 {
 .about {
   margin-bottom: 65px;
   margin: 0 auto; }
+  @media only screen and (min-width: 37.5em) {
+    .about {
+      display: flex;
+      margin: 0; } }
   .about__profile {
     border-bottom: 2px solid #e6e3e3;
     padding-bottom: 2rem;
     width: 350px; }
+    @media only screen and (min-width: 37.5em) {
+      .about__profile {
+        border: 0; } }
+  @media only screen and (min-width: 37.5em) {
+    .about__right-content {
+      margin-left: 69px;
+      border-top: 2px solid #e6e3e3;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #e6e3e3;
+      padding-bottom: -5rem;
+      margin-bottom: 40px; } }
+  @media only screen and (min-width: 37.5em) {
+    .about__heading {
+      margin-top: 51px; } }
   .about__description {
     color: #33323D;
     margin-bottom: 24px;
-    opacity: 0.8; }
+    opacity: 0.8;
+    line-height: 30px; }
+    @media only screen and (min-width: 37.5em) {
+      .about__description {
+        width: 340px; } }
 
 button.about:nth-child(3) {
   width: 202px; }
+  @media only screen and (min-width: 37.5em) {
+    button.about:nth-child(3) {
+      width: 180px; } }
 
 .contact {
   text-align: center;
@@ -506,6 +531,28 @@ button.about:nth-child(3) {
   border-top: 2px solid #e6e3e3;
   margin-top: 4rem;
   height: 370px; }
+  @media only screen and (min-width: 37.5em) {
+    .contact {
+      display: flex;
+      gap: 2rem;
+      text-align: left;
+      border: 0;
+      margin: 0; } }
+  .contact__right-content {
+    margin-top: 3rem; }
+  .contact__line {
+    display: none; }
+    @media only screen and (min-width: 37.5em) {
+      .contact__line {
+        display: block;
+        border-top: 2px solid #e6e3e3;
+        height: 1px;
+        width: 113px;
+        align-self: center;
+        margin-bottom: 7rem; } }
+  @media only screen and (min-width: 37.5em) {
+    .contact__heading {
+      width: 350px; } }
 
 .footer {
   height: 354px;

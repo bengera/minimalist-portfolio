@@ -535,6 +535,7 @@ button.about:nth-child(3) {
     .contact {
       display: flex;
       gap: 2rem;
+      height: 276px;
       text-align: left;
       border: 0;
       margin: 0; } }
@@ -549,7 +550,7 @@ button.about:nth-child(3) {
         height: 1px;
         width: 113px;
         align-self: center;
-        margin-bottom: 7rem; } }
+        margin-bottom: 2rem; } }
   @media only screen and (min-width: 37.5em) {
     .contact__heading {
       width: 350px; } }
@@ -557,14 +558,31 @@ button.about:nth-child(3) {
 .footer {
   height: 354px;
   background-color: #33323D; }
+  @media only screen and (min-width: 37.5em) {
+    .footer {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      justify-content: space-between;
+      padding: 1.5rem; } }
   .footer__left-content {
     text-align: center;
     padding-top: 56px; }
+    @media only screen and (min-width: 37.5em) {
+      .footer__left-content {
+        display: flex;
+        padding: 0; } }
   .footer__nav {
     width: 104px;
     height: auto;
     margin: 0 auto;
     padding-top: 40px; }
+    @media only screen and (min-width: 37.5em) {
+      .footer__nav {
+        width: auto;
+        padding-top: 0;
+        align-self: center;
+        margin-left: 2rem; } }
   .footer__nav-list {
     display: flex;
     flex-direction: column;
@@ -578,6 +596,9 @@ button.about:nth-child(3) {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase; }
+    @media only screen and (min-width: 37.5em) {
+      .footer__nav-list {
+        flex-direction: row; } }
   .footer__nav-link {
     color: #fff;
     font-family: inherit;
@@ -587,3 +608,9 @@ button.about:nth-child(3) {
     gap: 1rem;
     justify-content: center;
     margin-top: 40px; }
+    @media only screen and (min-width: 37.5em) {
+      .footer__social-container {
+        margin: 0; } }
+  .footer__logo {
+    width: 61px;
+    height: 32px; }

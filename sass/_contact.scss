@@ -30,6 +30,11 @@
             align-self: center;
             margin-bottom: 2rem;
         }
+
+        @media only screen and (min-width: $bp-desktop) {
+            width: 410px;
+        
+        }
     }
 
     &__heading {

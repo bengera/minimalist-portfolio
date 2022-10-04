@@ -19,6 +19,11 @@
             border: 0;
 
         }
+
+        @media only screen and (min-width: $bp-desktop) {
+            width: 540px;
+
+        }
     }
 
     &__right-content {
@@ -37,7 +42,7 @@
         @media only screen and (min-width: $bp-tablet) {
             margin-top: 51px;
         }
-    
+
     }
 
     &__description {
@@ -48,6 +53,11 @@
 
         @media only screen and (min-width: $bp-tablet) {
             width: 340px;
+
+        }
+
+        @media only screen and (min-width: $bp-desktop) {
+            width: 350px;
 
         }
 

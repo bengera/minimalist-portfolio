@@ -18,7 +18,7 @@
 
 
     &:before {
-        content:"";
+        content: "";
         width: 48px;
         height: 48px;
         background-image: url(../images/icons/down-arrows.svg);
@@ -28,22 +28,26 @@
         background-size: 20px 20px;
         position: absolute;
         top: 0;
-        left:0;
-        
-        
+        left: 0;
 
-        
+
+
+
     }
 
-    
+
 }
 
 .btn-primary:hover:before {
     background-color: #52ad9a;
-    
+
 }
 
 .btn-cta {
     width: 162px;
-text-align: center;
+    text-align: center;
+}
+
+.nav-primary__list-link.cyan {
+    color: $color-cyan;
 }

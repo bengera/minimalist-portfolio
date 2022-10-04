@@ -18,16 +18,18 @@
 
 <body>
 
+  <div class="master-container">
+
   <nav class="navigation-top">
     <img src="./images/logo.svg" alt="" class="navigation-top__logo">
     <button class="hamburger-menu"></button>
     <div class="nav-container">
-    <ul class="nav-primary">
-      <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Home</a></li>
-      <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Portfolio</a></li>
-      <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Contact me</a></li>
-    </ul>
-  </div>
+      <ul class="nav-primary">
+        <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link cyan">Home</a></li>
+        <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Portfolio</a></li>
+        <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Contact me</a></li>
+      </ul>
+    </div>
   </nav>
 
   <header class="header">
@@ -45,62 +47,67 @@
 
   <main>
 
- <section class="about">
-  <div class="about__left-content">
-    <picture class="about__picture">
-      <source media="(min-width: 600px)" srcset="./images/homepage/tablet/image-homepage-profile@2x.jpg">
-      <source media="(min-width: 1000px)" srcset="./images/homepage/desktop/image-homepage-profile@2x.jpg">
-      <img class="about__profile" alt="world map" src="./images/homepage/mobile/image-homepage-profile@2x.jpg">
-    </picture>
-  <!-- <img src="./images/homepage/mobile/image-homepage-profile.jpg" alt="profile picture" class="about__profile"> -->
-</div>
-<div class="about__right-content">
-  <h1 class="about__heading">About Me</h1>
-  <p class="about__description">
-    I’m a junior front-end developer looking for a new role in an exciting company.
-    I focus on writing accessible HTML, using modern CSS practices and writing clean
-    JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to
-    whatever tools are required. I’m based in London, UK, but I’m happy working remotely
-    and have experience in remote teams. When I’m not coding, you’ll find me outdoors.
-    I love being out in nature whether that’s going for a walk, run or cycling. I’d love
-    you to check out my work.
-  </p>
-  <button class="about btn-cta">Go to Portfolio</button>
-</div>
-</section>
-  
-<section class="contact">
-  <div class="contact__left-content">
-  <h1 class="contact__heading">Interested in doing a project together?</h1>
-</div>
-<div class="contact__line"></div>
-<div class="contact__right-content">
-  <button class="btn-cta">contact me</button>
-</div>
-</section>
- 
-</main>
-  
-<footer class="footer">
-  <div class="footer__left-content">
-    <img src="./images/logo-white.svg" alt="" class="navigation-footer__logo">
-    <nav class="footer__nav">
-      <ul class="footer__nav-list">
-        <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
-        <li class="footer__nav-item"><a href="#" class="footer__nav-link">Portfolio</a></li>
-        <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact me</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="footer__right-content">
-    <div class="footer__social-container">
-      <img src="./images/icons/github.svg" alt="github" class="footer__icon">
-      <img src="./images/icons/twitter.svg" alt="twitter" class="footer__icon">
-      <img src="./images/icons/linkedin.svg" alt="linkedin" class="footer__icon">
+    <section class="about">
+      <div class="about__left-content">
+        <picture class="about__picture">
+          <source media="(min-width: 1000px)" srcset="./images/homepage/desktop/image-homepage-profile@2x.jpg">
+          <source media="(min-width: 600px)" srcset="./images/homepage/tablet/image-homepage-profile@2x.jpg">
+          <img class="about__profile" alt="world map" src="./images/homepage/mobile/image-homepage-profile@2x.jpg">
+        </picture>
+        <!-- <img src="./images/homepage/mobile/image-homepage-profile.jpg" alt="profile picture" class="about__profile"> -->
+      </div>
+      <div class="about__right-content">
+        <h1 class="about__heading">About Me</h1>
+        <p class="about__description">
+          I’m a junior front-end developer looking for a new role in an exciting company.
+          I focus on writing accessible HTML, using modern CSS practices and writing clean
+          JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to
+          whatever tools are required. I’m based in London, UK, but I’m happy working remotely
+          and have experience in remote teams. When I’m not coding, you’ll find me outdoors.
+          I love being out in nature whether that’s going for a walk, run or cycling. I’d love
+          you to check out my work.
+        </p>
+        <button class="about btn-cta">Go to Portfolio</button>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact__left-content">
+        <h1 class="contact__heading">Interested in doing a project together?</h1>
+      </div>
+      <div class="contact__line"></div>
+      <div class="contact__right-content">
+        <button class="btn-cta">contact me</button>
+      </div>
+    </section>
+
+  </main>
+
+</div> <!--master-container-end-->
+
+  <footer class="footer">
+    <div class="footer__inner-container">
+    <div class="footer__left-content">
+      <img src="./images/logo-white.svg" alt="" class="navigation-footer__logo">
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Portfolio</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact me</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__right-content">
+      <div class="footer__social-container">
+        <img src="./images/icons/github.svg" alt="github" class="footer__icon">
+        <img src="./images/icons/twitter.svg" alt="twitter" class="footer__icon">
+        <img src="./images/icons/linkedin.svg" alt="linkedin" class="footer__icon">
+      </div>
     </div>
   </div>
+  </footer>
 
-</footer>
+
 
 </body>
 

@@ -38,7 +38,7 @@ html {
 body {
     font-family: $font-secondary;
     font-size: 16px;
-    max-width: 1140px;
+    // max-width: 1140px;
     line-height: 26px;
     margin: 0 auto;
     overflow-x: hidden;
@@ -47,8 +47,14 @@ body {
 
 }
 
+.master-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
 main {
-    max-width: 1920px;
+    // max-width: 1920px;
     padding: 0 1.8rem;
 
 

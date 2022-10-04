@@ -318,14 +318,16 @@ html {
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 16px;
-  max-width: 1140px;
   line-height: 26px;
   margin: 0 auto;
   overflow-x: hidden;
   background-color: #FAFAFA; }
 
+.master-container {
+  max-width: 1140px;
+  margin: 0 auto; }
+
 main {
-  max-width: 1920px;
   padding: 0 1.8rem; }
 
 h1 {
@@ -383,6 +385,9 @@ h1 {
 .btn-cta {
   width: 162px;
   text-align: center; }
+
+.nav-primary__list-link.cyan {
+  color: #5FB4A2; }
 
 .nav-container {
   display: none;
@@ -464,6 +469,9 @@ h1 {
   @media only screen and (min-width: 37.5em) {
     .header {
       position: relative; } }
+  @media only screen and (min-width: 62.5em) {
+    .header__introduction-box {
+      margin-top: 3rem; } }
   .header__hero-img {
     background-image: url(../images/homepage/mobile/image-homepage-hero@2x.jpg);
     height: 277px;
@@ -477,6 +485,9 @@ h1 {
         background-image: url(../images/homepage/tablet/image-homepage-hero@2x.jpg);
         height: 560px;
         max-width: 100%; } }
+    @media only screen and (min-width: 62.5em) {
+      .header__hero-img {
+        background-image: url(../images/homepage/desktop/image-homepage-hero@2x.jpg); } }
   @media only screen and (min-width: 37.5em) {
     .header__bottom {
       position: absolute;
@@ -484,6 +495,10 @@ h1 {
       background-color: #FFF;
       max-width: 515px;
       padding: 1rem 2rem 1rem 0; } }
+  @media only screen and (min-width: 62.5em) {
+    .header__bottom {
+      max-width: 417px;
+      height: 340px; } }
 
 .about {
   margin-bottom: 65px;
@@ -499,6 +514,9 @@ h1 {
     @media only screen and (min-width: 37.5em) {
       .about__profile {
         border: 0; } }
+    @media only screen and (min-width: 62.5em) {
+      .about__profile {
+        width: 540px; } }
   @media only screen and (min-width: 37.5em) {
     .about__right-content {
       margin-left: 69px;
@@ -518,6 +536,9 @@ h1 {
     @media only screen and (min-width: 37.5em) {
       .about__description {
         width: 340px; } }
+    @media only screen and (min-width: 62.5em) {
+      .about__description {
+        width: 350px; } }
 
 button.about:nth-child(3) {
   width: 202px; }
@@ -551,6 +572,9 @@ button.about:nth-child(3) {
         width: 113px;
         align-self: center;
         margin-bottom: 2rem; } }
+    @media only screen and (min-width: 62.5em) {
+      .contact__line {
+        width: 410px; } }
   @media only screen and (min-width: 37.5em) {
     .contact__heading {
       width: 350px; } }
@@ -565,6 +589,19 @@ button.about:nth-child(3) {
       height: auto;
       justify-content: space-between;
       padding: 1.5rem; } }
+  @media only screen and (min-width: 37.5em) {
+    .footer {
+      display: block; } }
+  @media only screen and (min-width: 37.5em) {
+    .footer__inner-container {
+      display: flex;
+      justify-content: space-between; } }
+  @media only screen and (min-width: 62.5em) {
+    .footer__inner-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; } }
   .footer__left-content {
     text-align: center;
     padding-top: 56px; }

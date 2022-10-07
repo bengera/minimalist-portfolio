@@ -68,6 +68,12 @@
         @media only screen and (min-width: $bp-tablet) {
             color: $color-grayish-dark-blue;
         }
+
+        &:hover {
+            @media only screen and (min-width: $bp-desktop) {
+                color: $color-cyan;
+            }
+        }
     }
 
 }

@@ -36,6 +36,11 @@
             margin-bottom: 40px;
         }
 
+        @media only screen and (min-width: $bp-desktop) {
+            margin-left: 125px;
+
+        }
+
     }
 
     &__heading {
@@ -73,6 +78,15 @@ button.about:nth-child(3) {
 
     @media only screen and (min-width: $bp-tablet) {
         width: 180px;
+    }
+
+    &:hover {
+
+        @media only screen and (min-width: $bp-desktop) {
+            background-color: $color-grayish-dark-blue;
+            color: $color-very-light-grey;
+        }
+
     }
 }
 

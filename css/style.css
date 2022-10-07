@@ -350,6 +350,10 @@ h1 {
   letter-spacing: 2px;
   text-align: left;
   cursor: pointer; }
+  @media only screen and (min-width: 62.5em) {
+    .btn-cta:hover {
+      background-color: #33323D;
+      color: #FAFAFA; } }
 
 .btn-primary {
   width: 200px;
@@ -364,8 +368,9 @@ h1 {
   cursor: pointer;
   position: relative;
   padding-left: 1.5rem; }
-  .btn-primary:hover {
-    background-color: #5FB4A2; }
+  @media only screen and (min-width: 62.5em) {
+    .btn-primary:hover {
+      background-color: #5FB4A2; } }
   .btn-primary:before {
     content: "";
     width: 48px;
@@ -379,8 +384,9 @@ h1 {
     top: 0;
     left: 0; }
 
-.btn-primary:hover:before {
-  background-color: #52ad9a; }
+@media only screen and (min-width: 62.5em) {
+  .btn-primary:hover:before {
+    background-color: #52ad9a; } }
 
 .btn-cta {
   width: 162px;
@@ -444,6 +450,9 @@ h1 {
     @media only screen and (min-width: 37.5em) {
       .nav-primary__list-link {
         color: #33323D; } }
+    @media only screen and (min-width: 62.5em) {
+      .nav-primary__list-link:hover {
+        color: #5FB4A2; } }
 
 .hamburger-menu {
   background-color: transparent;
@@ -525,6 +534,9 @@ h1 {
       border-bottom: 2px solid #e6e3e3;
       padding-bottom: -5rem;
       margin-bottom: 40px; } }
+  @media only screen and (min-width: 62.5em) {
+    .about__right-content {
+      margin-left: 125px; } }
   @media only screen and (min-width: 37.5em) {
     .about__heading {
       margin-top: 51px; } }
@@ -545,6 +557,10 @@ button.about:nth-child(3) {
   @media only screen and (min-width: 37.5em) {
     button.about:nth-child(3) {
       width: 180px; } }
+  @media only screen and (min-width: 62.5em) {
+    button.about:nth-child(3):hover {
+      background-color: #33323D;
+      color: #FAFAFA; } }
 
 .contact {
   text-align: center;
@@ -559,7 +575,11 @@ button.about:nth-child(3) {
       height: 276px;
       text-align: left;
       border: 0;
-      margin: 0; } }
+      margin: 0;
+      padding-left: 0; } }
+  @media only screen and (min-width: 62.5em) {
+    .contact {
+      padding-left: 0; } }
   .contact__right-content {
     margin-top: 3rem; }
   .contact__line {
@@ -569,7 +589,7 @@ button.about:nth-child(3) {
         display: block;
         border-top: 2px solid #e6e3e3;
         height: 1px;
-        width: 113px;
+        width: 242px;
         align-self: center;
         margin-bottom: 2rem; } }
     @media only screen and (min-width: 62.5em) {
@@ -640,6 +660,11 @@ button.about:nth-child(3) {
     color: #fff;
     font-family: inherit;
     text-decoration: none; }
+    @media only screen and (min-width: 62.5em) {
+      .footer__nav-link:hover {
+        color: #5FB4A2; } }
+  .footer__icon {
+    cursor: pointer; }
   .footer__social-container {
     display: flex;
     gap: 1rem;

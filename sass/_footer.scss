@@ -42,7 +42,7 @@
         @media only screen and (min-width: $bp-tablet) {
             display: flex;
             padding: 0;
-           
+
 
 
         }
@@ -90,9 +90,17 @@
         color: #fff;
         font-family: inherit;
         text-decoration: none;
+
+        &:hover {
+            @media only screen and (min-width: $bp-desktop) {
+                color: $color-cyan;
+            }
+        }
     }
 
-    &__icon {}
+    &__icon {
+        cursor: pointer;
+    }
 
     &__social-container {
 
@@ -113,3 +121,8 @@
         height: 32px;
     }
 }
+
+
+// img.footer__icon:nth-child(1) {
+
+// }

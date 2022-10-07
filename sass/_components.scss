@@ -13,7 +13,9 @@
     padding-left: 1.5rem;
 
     &:hover {
-        background-color: $color-cyan;
+        @media only screen and (min-width: $bp-desktop) {
+            background-color: $color-cyan;
+           }
     }
 
 
@@ -39,7 +41,10 @@
 }
 
 .btn-primary:hover:before {
-    background-color: #52ad9a;
+    @media only screen and (min-width: $bp-desktop) {
+        background-color: #52ad9a;
+       }
+    
 
 }
 

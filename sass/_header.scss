@@ -15,7 +15,7 @@
         width: auto;
         background-color: transparent;
         align-self: center;
-        
+
     }
 
 }
@@ -32,7 +32,19 @@
     padding: 2rem;
 
     @media only screen and (min-width: $bp-tablet) {
-     padding: 47px 2rem;   
+        padding: 47px 2rem;
+    }
+
+    &__logo {
+        @media only screen and (min-width: $bp-desktop) {
+            cursor: pointer;
+
+            &:hover {
+                filter: invert(60%) sepia(58%) saturate(286%) hue-rotate(117deg) brightness(96%) contrast(87%);
+            }
+
+
+        }
     }
 
 }
@@ -145,15 +157,15 @@
         @media only screen and (min-width: $bp-desktop) {
             background-image: url(../images/homepage/desktop/image-homepage-hero@2x.jpg);
 
-        
+
         }
     }
 
     &__bottom {
+        background-color: #fafafa;
         @media only screen and (min-width: $bp-tablet) {
             position: absolute;
             bottom: 0;
-            background-color: #FFF;
             max-width: 515px;
             padding: 1rem 2rem 1rem 0;
 
@@ -162,7 +174,7 @@
         @media only screen and (min-width: $bp-desktop) {
             max-width: 417px;
             height: 340px;
-        
+
         }
     }
 

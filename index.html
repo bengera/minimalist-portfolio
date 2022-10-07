@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/navigation.js"></script>
+  <script src="js/footer.js"></script>
   <script defer src="js/nav.js"></script>
 
   <title>Frontend Mentor | Minimalist Portfolio</title>
@@ -20,17 +22,7 @@
 
   <div class="master-container">
 
-  <nav class="navigation-top">
-    <img src="./images/logo.svg" alt="" class="navigation-top__logo">
-    <button class="hamburger-menu"></button>
-    <div class="nav-container">
-      <ul class="nav-primary">
-        <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link cyan">Home</a></li>
-        <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Portfolio</a></li>
-        <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Contact me</a></li>
-      </ul>
-    </div>
-  </nav>
+  <navigation-component></navigation-component>
 
   <header class="header">
     <div class="header__top">
@@ -85,7 +77,7 @@
 
 </div> <!--master-container-end-->
 
-  <footer class="footer">
+  <!-- <footer class="footer">
     <div class="footer__inner-container">
     <div class="footer__left-content">
       <img src="./images/logo-white.svg" alt="" class="navigation-footer__logo">
@@ -105,9 +97,8 @@
       </div>
     </div>
   </div>
-  </footer>
-
-
+  </footer> -->
+<footer-component></footer-component>
 
 </body>
 

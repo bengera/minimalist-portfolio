@@ -424,6 +424,11 @@ h1 {
   @media only screen and (min-width: 37.5em) {
     .navigation-top {
       padding: 47px 2rem; } }
+  @media only screen and (min-width: 62.5em) {
+    .navigation-top__logo {
+      cursor: pointer; }
+      .navigation-top__logo:hover {
+        filter: invert(60%) sepia(58%) saturate(286%) hue-rotate(117deg) brightness(96%) contrast(87%); } }
 
 .nav-primary {
   display: flex;
@@ -497,17 +502,18 @@ h1 {
     @media only screen and (min-width: 62.5em) {
       .header__hero-img {
         background-image: url(../images/homepage/desktop/image-homepage-hero@2x.jpg); } }
-  @media only screen and (min-width: 37.5em) {
-    .header__bottom {
-      position: absolute;
-      bottom: 0;
-      background-color: #FFF;
-      max-width: 515px;
-      padding: 1rem 2rem 1rem 0; } }
-  @media only screen and (min-width: 62.5em) {
-    .header__bottom {
-      max-width: 417px;
-      height: 340px; } }
+  .header__bottom {
+    background-color: #fafafa; }
+    @media only screen and (min-width: 37.5em) {
+      .header__bottom {
+        position: absolute;
+        bottom: 0;
+        max-width: 515px;
+        padding: 1rem 2rem 1rem 0; } }
+    @media only screen and (min-width: 62.5em) {
+      .header__bottom {
+        max-width: 417px;
+        height: 340px; } }
 
 .about {
   margin-bottom: 65px;

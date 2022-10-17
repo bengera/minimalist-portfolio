@@ -51,8 +51,39 @@
 .btn-cta {
     width: 162px;
     text-align: center;
+    
 }
 
 .nav-primary__list-link.cyan {
     color: $color-cyan;
+}
+
+.btn-secondary {
+     
+        width: 202px;
+        text-transform: uppercase;
+        color: #33323D;
+        background-color: #fff;
+        border: 1px solid #33323D;
+        padding: 1.2rem;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 2px;
+        cursor: pointer;
+      
+    
+        @media only screen and (min-width: $bp-tablet) {
+            width: 180px;
+        }
+    
+        &:hover {
+    
+            @media only screen and (min-width: $bp-desktop) {
+                background-color: $color-grayish-dark-blue;
+                color: $color-very-light-grey;
+            }
+    
+        }
+    
 }

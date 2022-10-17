@@ -395,6 +395,26 @@ h1 {
 .nav-primary__list-link.cyan {
   color: #5FB4A2; }
 
+.btn-secondary {
+  width: 202px;
+  text-transform: uppercase;
+  color: #33323D;
+  background-color: #fff;
+  border: 1px solid #33323D;
+  padding: 1.2rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  cursor: pointer; }
+  @media only screen and (min-width: 37.5em) {
+    .btn-secondary {
+      width: 180px; } }
+  @media only screen and (min-width: 62.5em) {
+    .btn-secondary:hover {
+      background-color: #33323D;
+      color: #FAFAFA; } }
+
 .nav-container {
   display: none;
   position: absolute;
@@ -567,6 +587,35 @@ button.about:nth-child(3) {
     button.about:nth-child(3):hover {
       background-color: #33323D;
       color: #FAFAFA; } }
+
+.portfolio-display-box {
+  border-bottom: 2px solid #e6e3e3;
+  padding-bottom: 2rem; }
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; }
+  .portfolio__left-content {
+    text-align: center;
+    border-bottom: 2px solid #e6e3e3;
+    padding-bottom: 2rem; }
+  .portfolio__right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem; }
+  .portfolio__image {
+    width: 100%;
+    height: auto; }
+  .portfolio__heading {
+    font-size: 40px;
+    font-family: "Ibarra Real Nova", serif, sans-serif;
+    color: #33323D; }
+  .portfolio__description {
+    color: #33323D;
+    opacity: 0.8;
+    line-height: 30px; }
 
 .contact {
   text-align: center;

@@ -1,0 +1,42 @@
+.portfolio-display-box {
+    border-bottom: 2px solid #e6e3e3;
+    padding-bottom: 2rem;
+}
+
+.portfolio {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &__left-content {
+        text-align: center;
+        border-bottom: 2px solid #e6e3e3;
+        padding-bottom: 2rem;
+
+    }
+
+    &__right-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+    }
+
+    &__heading {
+        font-size: 40px;
+        font-family: $font-primary;
+        color: $color-grayish-dark-blue;
+    }
+
+    &__description {
+        color: $color-grayish-dark-blue;
+        opacity: 0.8;
+        line-height: 30px;
+    }
+}

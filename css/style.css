@@ -591,31 +591,102 @@ button.about:nth-child(3) {
 .portfolio-display-box {
   border-bottom: 2px solid #e6e3e3;
   padding-bottom: 2rem; }
+  @media only screen and (min-width: 37.5em) {
+    .portfolio-display-box {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 0;
+      padding-bottom: 0;
+      height: 395px; } }
 
 .portfolio {
   display: flex;
   flex-direction: column;
   gap: 2rem; }
+  @media only screen and (min-width: 37.5em) {
+    .portfolio {
+      gap: 6rem;
+      margin: 5.875rem 0; } }
   .portfolio__left-content {
     text-align: center;
     border-bottom: 2px solid #e6e3e3;
     padding-bottom: 2rem; }
+    @media only screen and (min-width: 37.5em) {
+      .portfolio__left-content {
+        border: 0; } }
   .portfolio__right-content {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem; }
+    @media only screen and (min-width: 37.5em) {
+      .portfolio__right-content {
+        margin-top: 0;
+        margin-left: 4.3125rem;
+        border-bottom: 2px solid #e6e3e3; } }
   .portfolio__image {
     width: 100%;
     height: auto; }
+    @media only screen and (min-width: 37.5em) {
+      .portfolio__image {
+        width: 318px;
+        height: 283px;
+        margin-top: 2.5rem; } }
   .portfolio__heading {
     font-size: 40px;
     font-family: "Ibarra Real Nova", serif, sans-serif;
     color: #33323D; }
+    @media only screen and (min-width: 37.5em) {
+      .portfolio__heading {
+        border-top: 2px solid #e6e3e3;
+        padding-top: 2rem; } }
   .portfolio__description {
     color: #33323D;
     opacity: 0.8;
     line-height: 30px; }
+
+@media only screen and (min-width: 37.5em) {
+  .portfolio-display-box:nth-child(even) {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 2rem; } }
+
+@media only screen and (min-width: 37.5em) {
+  div.portfolio-display-box:nth-child(4) > div:nth-child(2),
+  div.portfolio-display-box:nth-child(2) > div:nth-child(2) {
+    margin: 0 2rem 0 0; } }
+
+@media only screen and (min-width: 37.5em) {
+  #image-1 {
+    content: url("../images/portfolio/tablet/image-portfolio-manage@2x.jpg"); } }
+
+@media only screen and (min-width: 62.5em) {
+  #image-1 {
+    content: url("../images/portfolio/desktop/image-portfolio-manage@2x.jpg"); } }
+
+@media only screen and (min-width: 37.5em) {
+  #image-2 {
+    content: url("../images/portfolio/tablet/image-portfolio-bookmark@2x.jpg"); } }
+
+@media only screen and (min-width: 62.5em) {
+  #image-2 {
+    content: url("../images/portfolio/desktop/image-portfolio-bookmark@2x.jpg"); } }
+
+@media only screen and (min-width: 37.5em) {
+  #image-3 {
+    content: url("../images/portfolio/tablet/image-portfolio-insure@2x.jpg"); } }
+
+@media only screen and (min-width: 62.5em) {
+  #image-3 {
+    content: url("../images/portfolio/desktop/image-portfolio-insure@2x.jpg"); } }
+
+@media only screen and (min-width: 37.5em) {
+  #image-4 {
+    content: url("../images/portfolio/tablet/image-portfolio-fylo@2x.jpg"); } }
+
+@media only screen and (min-width: 62.5em) {
+  #image-4 {
+    content: url("../images/portfolio/desktop/image-portfolio-fylo@2x.jpg"); } }
 
 .contact {
   text-align: center;

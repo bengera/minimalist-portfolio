@@ -1,18 +1,43 @@
 .portfolio-display-box {
     border-bottom: 2px solid #e6e3e3;
     padding-bottom: 2rem;
+
+    @media only screen and (min-width: $bp-tablet) {
+
+        display: flex;
+        flex-direction: row;
+        border-bottom: 0;
+        padding-bottom: 0;
+        height: 395px;
+
+
+
+    }
+
+
 }
 
 .portfolio {
-    
+
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+    @media only screen and (min-width: $bp-tablet) {
+        gap: 6rem;
+        margin: 5.875rem 0;
+
+    }
 
     &__left-content {
         text-align: center;
         border-bottom: 2px solid #e6e3e3;
         padding-bottom: 2rem;
+
+        @media only screen and (min-width: $bp-tablet) {
+            border: 0;
+
+        }
 
     }
 
@@ -21,17 +46,42 @@
         flex-direction: column;
         gap: 2rem;
         margin-top: 2rem;
+
+        @media only screen and (min-width: $bp-tablet) {
+            margin-top: 0;
+            margin-left: 4.3125rem;
+            // border-top: 2px solid #e6e3e3;
+            // padding-top: 2rem;
+            border-bottom: 2px solid #e6e3e3;
+
+        }
     }
 
     &__image {
         width: 100%;
         height: auto;
+
+        @media only screen and (min-width: $bp-tablet) {
+            // width: 339px;
+            // height: 314px;
+            width: 318px;
+            height: 283px;
+            margin-top: 2.5rem;
+
+        }
     }
 
     &__heading {
         font-size: 40px;
         font-family: $font-primary;
         color: $color-grayish-dark-blue;
+
+        @media only screen and (min-width: $bp-tablet) {
+            border-top: 2px solid #e6e3e3;
+            padding-top: 2rem;
+
+        }
+
     }
 
     &__description {
@@ -39,4 +89,91 @@
         opacity: 0.8;
         line-height: 30px;
     }
+}
+
+
+.portfolio-display-box:nth-child(even) {
+    @media only screen and (min-width: $bp-tablet) {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        gap: 2rem;
+
+
+
+    }
+
+
+}
+
+
+
+
+div.portfolio-display-box:nth-child(4)>div:nth-child(2),
+div.portfolio-display-box:nth-child(2)>div:nth-child(2) {
+
+    @media only screen and (min-width: $bp-tablet) {
+        margin: 0 2rem 0 0;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+#image-1 {
+    @media only screen and (min-width: $bp-tablet) {
+        content: url("../images/portfolio/tablet/image-portfolio-manage@2x.jpg");
+
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        content: url("../images/portfolio/desktop/image-portfolio-manage@2x.jpg");
+
+    }
+
+}
+
+#image-2 {
+    @media only screen and (min-width: $bp-tablet) {
+        content: url("../images/portfolio/tablet/image-portfolio-bookmark@2x.jpg");
+
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        content: url("../images/portfolio/desktop/image-portfolio-bookmark@2x.jpg");
+
+    }
+
+}
+
+#image-3 {
+    @media only screen and (min-width: $bp-tablet) {
+        content: url("../images/portfolio/tablet/image-portfolio-insure@2x.jpg");
+
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        content: url("../images/portfolio/desktop/image-portfolio-insure@2x.jpg");
+
+    }
+
+}
+
+
+#image-4 {
+    @media only screen and (min-width: $bp-tablet) {
+        content: url("../images/portfolio/tablet/image-portfolio-fylo@2x.jpg");
+
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        content: url("../images/portfolio/desktop/image-portfolio-fylo@2x.jpg");
+
+    }
+
 }

@@ -606,7 +606,9 @@ button.about:nth-child(3) {
   @media only screen and (min-width: 37.5em) {
     .portfolio {
       gap: 6rem;
-      margin: 5.875rem 0; } }
+      margin: 5.875rem 0;
+      max-width: 698px;
+      margin: 0 auto; } }
   .portfolio__left-content {
     text-align: center;
     border-bottom: 2px solid #e6e3e3;

@@ -337,8 +337,7 @@ h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 42px;
-  letter-spacing: -0.3571428656578064px;
-  margin: 0.67em 0; }
+  letter-spacing: -0.3571428656578064px; }
 
 .btn-cta {
   text-transform: uppercase;
@@ -656,9 +655,11 @@ picture.static-previews__picture:nth-child(3) > img:nth-child(3) {
   @media only screen and (min-width: 62.5em) {
     .about__right-content {
       margin-left: 125px; } }
-  @media only screen and (min-width: 37.5em) {
-    .about__heading {
-      margin-top: 51px; } }
+  .about__heading {
+    margin: 0.67em 0; }
+    @media only screen and (min-width: 37.5em) {
+      .about__heading {
+        margin-top: 51px; } }
   .about__description {
     color: #33323D;
     margin-bottom: 24px;
@@ -863,9 +864,11 @@ button.about:nth-child(3) {
     @media only screen and (min-width: 62.5em) {
       .contact__line {
         width: 410px; } }
-  @media only screen and (min-width: 37.5em) {
-    .contact__heading {
-      width: 350px; } }
+  .contact__heading {
+    margin: 0.67em 0; }
+    @media only screen and (min-width: 37.5em) {
+      .contact__heading {
+        width: 350px; } }
 
 .footer {
   height: 354px;

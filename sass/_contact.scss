@@ -4,7 +4,8 @@
     padding: 3em;
     border-top: 2px solid #e6e3e3;
     margin-top: 4rem;
-    height: 370px;
+    margin-top: 2rem;
+    height: auto;
 
     @media only screen and (min-width: $bp-tablet) {
         display: flex;
@@ -14,11 +15,11 @@
         border: 0;
         margin: 0;
         padding-left: 0;
-        
+
     }
 
     @media only screen and (min-width: $bp-desktop) {
-        padding-left: 0;   
+        padding-left: 0;
 
     }
 
@@ -40,7 +41,7 @@
 
         @media only screen and (min-width: $bp-desktop) {
             width: 410px;
-        
+
         }
     }
 
@@ -50,6 +51,6 @@
         }
     }
 
-   
+
 
 }

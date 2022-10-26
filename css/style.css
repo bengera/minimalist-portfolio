@@ -330,13 +330,15 @@ body {
 main {
   padding: 0 1.8rem; }
 
-h1 {
+h1,
+h2 {
   font-family: "Ibarra Real Nova", serif, sans-serif;
   color: #33323D;
   font-size: 40px;
   font-weight: 700;
   line-height: 42px;
-  letter-spacing: -0.3571428656578064px; }
+  letter-spacing: -0.3571428656578064px;
+  margin: 0.67em 0; }
 
 .btn-cta {
   text-transform: uppercase;
@@ -354,6 +356,91 @@ h1 {
     .btn-cta:hover {
       background-color: #33323D;
       color: #FAFAFA; } }
+
+.project__hero-picture {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #e6e3e3;
+  padding-bottom: 40px; }
+
+.project__introduction-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 452px;
+  border-bottom: 2px solid #e6e3e3;
+  padding-bottom: 40px; }
+
+.project__heading {
+  margin-bottom: 0; }
+
+.project__description-tools {
+  color: #5FB4A2;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-size: 13px; }
+
+.project-background__heading {
+  font-weight: 400;
+  font-size: 32px; }
+
+.static-previews__heading {
+  font-weight: 400;
+  font-size: 32px; }
+
+.static-previews__image {
+  width: 100%;
+  height: auto; }
+
+picture.static-previews__picture:nth-child(3) > img:nth-child(3) {
+  margin-top: 32px; }
+
+.project-navigation {
+  border-top: 1px solid #EAEAEB;
+  border-bottom: 1px solid #EAEAEB;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px; }
+  .project-navigation__previous, .project-navigation__next {
+    padding: 2.5rem;
+    display: flex;
+    width: 50%;
+    text-decoration: none;
+    color: #33323D; }
+    @media only screen and (max-width: 37.5em) {
+      .project-navigation__previous, .project-navigation__next {
+        padding: 0.5rem;
+        display: block;
+        padding-bottom: 1.5rem; } }
+    .project-navigation__previous:hover, .project-navigation__next:hover {
+      color: #5FB4A2; }
+  .project-navigation__previous {
+    border-right: 1px solid #EAEAEB; }
+  .project-navigation__next {
+    flex-direction: row-reverse; }
+    @media only screen and (max-width: 37.5em) {
+      .project-navigation__next {
+        text-align: right; } }
+  .project-navigation__heading {
+    font-size: 32px;
+    font-family: "Ibarra Real Nova", serif, sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 400; }
+  .project-navigation__description {
+    color: #33323D;
+    font-size: 16px;
+    opacity: 40%; }
+  .project-navigation__left-arrow, .project-navigation__right-arrow {
+    width: 8px;
+    height: 16px;
+    margin-top: 18px; }
+    @media only screen and (max-width: 37.5em) {
+      .project-navigation__left-arrow, .project-navigation__right-arrow {
+        margin-bottom: 16px; } }
+  .project-navigation__left-arrow {
+    margin-right: 2rem; }
+  .project-navigation__right-arrow {
+    margin-left: 2rem; }
 
 .btn-primary {
   width: 200px;
@@ -414,6 +501,11 @@ h1 {
     .btn-secondary:hover {
       background-color: #33323D;
       color: #FAFAFA; } }
+
+.description-text {
+  color: #33323D;
+  opacity: 0.8;
+  line-height: 30px; }
 
 .nav-container {
   display: none;
@@ -545,10 +637,12 @@ h1 {
   .about__profile {
     border-bottom: 2px solid #e6e3e3;
     padding-bottom: 2rem;
-    width: 350px; }
+    width: 100%;
+    height: auto; }
     @media only screen and (min-width: 37.5em) {
       .about__profile {
-        border: 0; } }
+        border: 0;
+        width: 280px; } }
     @media only screen and (min-width: 62.5em) {
       .about__profile {
         width: 540px; } }
@@ -558,7 +652,6 @@ h1 {
       border-top: 2px solid #e6e3e3;
       padding-bottom: 2rem;
       border-bottom: 2px solid #e6e3e3;
-      padding-bottom: -5rem;
       margin-bottom: 40px; } }
   @media only screen and (min-width: 62.5em) {
     .about__right-content {
@@ -672,7 +765,8 @@ button.about:nth-child(3) {
     @media only screen and (min-width: 37.5em) {
       .portfolio__heading {
         border-top: 2px solid #e6e3e3;
-        padding-top: 2rem; } }
+        padding-top: 2rem;
+        margin-bottom: 0; } }
     @media only screen and (min-width: 62.5em) {
       .portfolio__heading {
         border: 0;
@@ -740,7 +834,8 @@ button.about:nth-child(3) {
   padding: 3em;
   border-top: 2px solid #e6e3e3;
   margin-top: 4rem;
-  height: 370px; }
+  margin-top: 2rem;
+  height: auto; }
   @media only screen and (min-width: 37.5em) {
     .contact {
       display: flex;

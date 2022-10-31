@@ -22,91 +22,96 @@
 
 <body>
 
-  <nav class="navigation-top">
-    <img src="./images/logo.svg" alt="" class="navigation-top__logo">
-    <button class="hamburger-menu"></button>
-    <div class="nav-container">
-      <ul class="nav-primary">
-        <li class="nav-primary__list-item"><a href="./index.html" id="home-link" class="nav-primary__list-link">Home</a>
-        </li>
-        <li class="nav-primary__list-item"><a href="./portfolio.html" class="nav-primary__list-link cyan">Portfolio</a>
-        </li>
-        <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Contact me</a></li>
-      </ul>
-    </div>
-  </nav>
-
   <div class="master-container">
 
+    <nav class="navigation-top">
+      <img src="./images/logo.svg" alt="" class="navigation-top__logo">
+      <button class="hamburger-menu"></button>
+      <div class="nav-container">
+        <ul class="nav-primary">
+          <li class="nav-primary__list-item"><a href="./index.html" id="home-link"
+              class="nav-primary__list-link">Home</a>
+          </li>
+          <li class="nav-primary__list-item"><a href="./portfolio.html"
+              class="nav-primary__list-link cyan">Portfolio</a>
+          </li>
+          <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <main>
       <div class="left-content">
-      <div class="project">
-        <div class="project__hero-preview">
-          <picture class="project__hero">
-            <source media="(min-width: 1000px)" srcset="./images/detail/desktop/image-manage-hero@2x.jpg">
-            <source media="(min-width: 600px)" srcset="./images/detail/tablet/image-manage-hero@2x.jpg">
-            <img class="project__hero-picture" alt="world map" src="./images/detail/mobile/image-manage-hero@2x.jpg">
-          </picture>
+        <div class="project">
+          <div class="project__hero-preview">
+            <picture class="project__hero">
+              <source media="(min-width: 1000px)" srcset="./images/detail/desktop/image-manage-hero@2x.jpg">
+              <source media="(min-width: 600px)" srcset="./images/detail/tablet/image-manage-hero@2x.jpg">
+              <img class="project__hero-picture" alt="world map" src="./images/detail/mobile/image-manage-hero@2x.jpg">
+            </picture>
+          </div>
+        </div>
+        <div class="project__introduction-content">
+          <h2 class="project__heading">Manage</h2>
+          <p class="project__description description-text">This project required me to build a fully responsive landing
+            page to the designs provided.
+            I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the
+            testimonial slider.</p>
+          <p class="project__description-tools">Interaction Design / Front End Development <br> HTML / CSS / JS</p>
+          <button id="live-link" class="btn-secondary">visit website</button>
         </div>
       </div>
-      <div class="project__introduction-content">
-        <h2 class="project__heading">Manage</h2>
-        <p class="project__description description-text">This project required me to build a fully responsive landing
-          page to the designs provided.
-          I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the
-          testimonial slider.</p>
-        <p class="project__description-tools">Interaction Design / Front End Development <br> HTML / CSS / JS</p>
-        <button class="btn-secondary">visit website</button>
+
+      <div class="right-content">
+        <div class="project-background">
+          <h2 class="project-background__heading">Project background</h2>
+          <p class="project-background__description description-text">This project was a front-end challenge from
+            Frontend
+            Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each
+            challenge includes mobile and desktop designs to show how the website should look at different screen sizes.
+            Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned
+            something new with each project,
+            helping me to improve and adapt my style.</p>
+        </div>
+
+        <div class="static-previews">
+          <h2 class="static-previews__heading">Static Previews</h2>
+          <picture class="static-previews__picture">
+            <source media="(min-width: 1000px)" srcset="./images/detail/desktop/image-manage-preview-1@2x.jpg">
+            <source media="(min-width: 600px)" srcset="./images/detail/tablet/image-manage-preview-1@2x.jpg">
+            <img class="static-previews__image" alt="preview"
+              src="./images/detail/mobile/image-manage-preview-1@2x.jpg">
+          </picture>
+          <picture class="static-previews__picture">
+            <source media="(min-width: 1000px)" srcset="./images/detail/desktop/image-manage-preview-2@2x.jpg">
+            <source media="(min-width: 600px)" srcset="./images/detail/tablet/image-manage-preview-2@2x.jpg">
+            <img class="static-previews__image" alt="preview"
+              src="./images/detail/mobile/image-manage-preview-2@2x.jpg">
+          </picture>
+
+        </div>
       </div>
-    </div>
+      <!--right-content-end-->
 
-    <div class="right-content">
-      <div class="project-background">
-        <h2 class="project-background__heading">Project background</h2>
-        <p class="project-background__description description-text">This project was a front-end challenge from Frontend
-          Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each
-          challenge includes mobile and desktop designs to show how the website should look at different screen sizes.
-          Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned
-          something new with each project,
-          helping me to improve and adapt my style.</p>
-      </div>
+      <div class="project-navigation">
 
-      <div class="static-previews">
-        <h2 class="static-previews__heading">Static Previews</h2>
-        <picture class="static-previews__picture">
-          <source media="(min-width: 1000px)" srcset="./images/detail/desktop/image-manage-preview-1@2x.jpg">
-          <source media="(min-width: 600px)" srcset="./images/detail/tablet/image-manage-preview-1@2x.jpg">
-          <img class="static-previews__image" alt="preview" src="./images/detail/mobile/image-manage-preview-1@2x.jpg">
-        </picture>
-        <picture class="static-previews__picture">
-          <source media="(min-width: 1000px)" srcset="./images/detail/desktop/image-manage-preview-2@2x.jpg">
-          <source media="(min-width: 600px)" srcset="./images/detail/tablet/image-manage-preview-2@2x.jpg">
-          <img class="static-previews__image" alt="preview" src="./images/detail/mobile/image-manage-preview-2@2x.jpg">
-        </picture>
+        <a href="" class="project-navigation__previous">
+          <img src="./images/icons/arrow-left.svg" alt="arrow-left" class="project-navigation__left-arrow">
+          <div class="project-navigation__text-content">
+            <h3 class="project-navigation__heading">Fylo</h3>
+            <p class="project-navigation__description">Previous Project</p>
+          </div>
+        </a>
+
+        <a href="" class="project-navigation__next">
+          <img src="./images/icons/arrow-right.svg" alt="arrow-right" class="project-navigation__right-arrow">
+          <div class="project-navigation__text-content">
+            <h3 class="project-navigation__heading">Bookmark</h3>
+            <p class="project-navigation__description">Next Project</p>
+          </div>
+        </a>
 
       </div>
-    </div><!--right-content-end-->
-
-<div class="project-navigation">
-
-    <a href="" class="project-navigation__previous">
-      <img src="./images/icons/arrow-left.svg" alt="arrow-left" class="project-navigation__left-arrow">
-      <div class="project-navigation__text-content">
-        <h3 class="project-navigation__heading">Fylo</h3>
-        <p class="project-navigation__description">Previous Project</p>
-      </div>
-    </a>
-
-    <a href="" class="project-navigation__next">
-      <img src="./images/icons/arrow-right.svg" alt="arrow-right" class="project-navigation__right-arrow">
-      <div class="project-navigation__text-content">
-        <h3 class="project-navigation__heading">Bookmark</h3>
-        <p class="project-navigation__description">Next Project</p>
-      </div>
-    </a>
-
-</div>
 
       <contact-component></contact-component>
 

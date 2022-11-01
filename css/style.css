@@ -356,6 +356,9 @@ h2 {
       background-color: #33323D;
       color: #FAFAFA; } }
 
+.btn-portfolio {
+  text-decoration: none; }
+
 .btn-primary {
   width: 200px;
   height: 48px;
@@ -415,6 +418,11 @@ h2 {
     .btn-secondary:hover {
       background-color: #33323D;
       color: #FAFAFA; } }
+
+button.about {
+  width: 202px;
+  text-decoration: none;
+  padding-left: 2rem; }
 
 .description-text {
   color: #33323D;
@@ -745,15 +753,32 @@ button.about:nth-child(3) {
   #image-4 {
     content: url("../images/portfolio/desktop/image-portfolio-fylo@2x.jpg"); } }
 
+@media only screen and (min-width: 62.5em) {
+  .main-content {
+    display: flex;
+    gap: 5rem; } }
+
 @media only screen and (min-width: 37.5em) {
   .left-content {
-    margin-top: 94px; } }
+    margin-top: 0; } }
+
+@media only screen and (min-width: 62.5em) {
+  .left-content {
+    width: 350px;
+    margin-top: 42px; } }
+
+@media only screen and (min-width: 62.5em) {
+  .right-content {
+    width: 635px; } }
 
 .project__hero-picture {
   width: 100%;
   height: auto;
   border-bottom: 2px solid #e6e3e3;
   padding-bottom: 40px; }
+  @media only screen and (min-width: 62.5em) {
+    .project__hero-picture {
+      border: 0; } }
 
 .project__introduction-content {
   display: flex;
@@ -769,6 +794,12 @@ button.about:nth-child(3) {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 80px repeat(2, min-content);
       gap: 0; } }
+  @media only screen and (min-width: 62.5em) {
+    .project__introduction-content {
+      display: flex;
+      gap: 1rem;
+      border-top: 2px solid #e6e3e3;
+      padding-top: 40px; } }
 
 .project__heading {
   margin-bottom: 0;
@@ -780,11 +811,22 @@ button.about:nth-child(3) {
     grid-column: 2/2;
     padding-top: 1.9rem; } }
 
+@media only screen and (min-width: 62.5em) {
+  .project__description {
+    padding: 0; } }
+
 .project__description-tools {
   color: #5FB4A2;
   font-weight: 600;
   font-family: "Public Sans", sans-serif;
   font-size: 13px; }
+  @media only screen and (min-width: 62.5em) {
+    .project__description-tools {
+      line-height: 35px; } }
+
+@media only screen and (min-width: 37.5em) {
+  .project__hero-preview {
+    margin-top: 50px; } }
 
 .project-background__heading {
   font-weight: 400;
@@ -821,6 +863,9 @@ picture.static-previews__picture:nth-child(3) > img:nth-child(3) {
         padding: 0.5rem;
         display: block;
         padding-bottom: 1.5rem; } }
+    @media only screen and (min-width: 62.5em) {
+      .project-navigation__previous, .project-navigation__next {
+        height: 130px; } }
     .project-navigation__previous:hover, .project-navigation__next:hover {
       color: #5FB4A2; }
   .project-navigation__previous {
@@ -856,6 +901,9 @@ picture.static-previews__picture:nth-child(3) > img:nth-child(3) {
   @media only screen and (min-width: 37.5em) {
     #live-link {
       margin-top: -22px; } }
+  @media only screen and (min-width: 62.5em) {
+    #live-link {
+      margin-top: 0; } }
 
 .contact {
   text-align: center;

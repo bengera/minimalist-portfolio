@@ -12,9 +12,9 @@ class Footer extends HTMLElement {
       <img src="./images/logo-white.svg" alt="" class="navigation-footer__logo">
       <nav class="footer__nav">
         <ul class="footer__nav-list">
-          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
-          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Portfolio</a></li>
-          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact me</a></li>
+          <li class="footer__nav-item"><a href="./index.html" class="footer__nav-link">Home</a></li>
+          <li class="footer__nav-item"><a href="./portfolio.html" class="footer__nav-link">Portfolio</a></li>
+          <li class="footer__nav-item"><a href="./contact.html" class="footer__nav-link">Contact me</a></li>
         </ul>
       </nav>
     </div>

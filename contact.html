@@ -1,40 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/navigation.js"></script>
+  <script src="js/footer.js"></script>
+  <!-- <script defer src="js/form-validation.js"></script> -->
+  <script defer src="js/nav.js"></script>
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+
   <title>Frontend Mentor | Contact Me</title>
 </head>
+
 <body>
 
-  Home
-  Portfolio
-  Contact Me
 
-  Get in Touch
+  <div class="master-container">
 
-  I’d love to hear about what you’re working on and how I could help. I’m currently 
-  looking for a new role and am open to a wide range of opportunities. My preference 
-  would be to find a position in a company in London. But I’m also happy to hear about 
-  opportunites that don’t fit that description. I’m a hard-working and positive person 
-  who will always approach each task with a sense of purpose and attention to detail. 
-  Please do feel free to check out my online profiles below and get in touch using the form.
+    <nav class="navigation-top">
+      <img src="./images/logo.svg" alt="" class="navigation-top__logo">
+      <button class="hamburger-menu"></button>
+      <div class="nav-container">
+        <ul class="nav-primary">
+          <li class="nav-primary__list-item"><a href="./index.html" id="home-link"
+              class="nav-primary__list-link">Home</a>
+          </li>
+          <li class="nav-primary__list-item"><a href="./portfolio.html" class="nav-primary__list-link">Portfolio</a>
+          </li>
+          <li class="nav-primary__list-item"><a href="./contact.html" class="nav-primary__list-link cyan">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  Contact Me
+    <main>
+      <div class="top-content">
+        <div class="top-content__left">
+        <h1 class="top-content__heading">Get in Touch</h1>
+      </div>
+        <div class="top-content__right">
+          <p class="top-content__description">
+            I’d love to hear about what you’re working on and how I could help. I’m currently
+            looking for a new role and am open to a wide range of opportunities. My preference
+            would be to find a position in a company in London. But I’m also happy to hear about
+            opportunites that don’t fit that description. I’m a hard-working and positive person
+            who will always approach each task with a sense of purpose and attention to detail.
+            Please do feel free to check out my online profiles below and get in touch using the form.
+          </p>
+          <div class="top-content__social-container">
+            <img id="githubIcon" src="./images/icons/github.svg" alt="github" class="top-content__icon">
+            <img id="twitterIcon" src="./images/icons/twitter.svg" alt="twitter" class="top-content__icon">
+            <img id="linkedinIcon" src="./images/icons/linkedin.svg" alt="linkedin" class="top-content__icon">
+          </div>
+        </div>
+      </div>
 
-  Name
-  Jane Appleseed
+      <div class="bottom-content">
+        <div class="bottom-content__left">
+        <h1 class="bottom-content__heading">Contact me</h1>
+      </div>
 
-  Email Address
-  email@example.com
+        <!-- <div id="error"></div> -->
+        <div class="bottom-content__right">
+        <form id="form" action="#" class="form">
+          <div class="input-box">
+            <label for="name">Name</label><br>
+            <input id="name" name="name" type="text" required placeholder="Jane Appleseed" oninvalid="this.setCustomValidity('This field is required')"
+            oninput="setCustomValidity('')">
+          </div>
+          <br>
+          <div class="input-box">
+            <label for="email">Email</label><br>
+            <input id="email" name="email" type="email" required placeholder="email@example.com" oninvalid="this.setCustomValidity('Please use a valid email address')"
+            oninput="setCustomValidity('')">
+          </div>
+          <br>
+          <div class="input-box">
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" cols="30" rows="10" required placeholder="How can I help?" oninvalid="this.setCustomValidity('This field is required')"
+            oninput="setCustomValidity('')"></textarea>
+          </div>
+          <br>
+          <input class="submit" type="submit" value="Send message">
+        </form>
 
-  Message
-  How can I help?
+      </div>
+    </div>
 
-  Send Message
+    </main>
+
+  </div>
+
+  <footer-component></footer-component>
 
 </body>
+
 </html>

@@ -393,8 +393,33 @@ h2 {
     background-color: #52ad9a; } }
 
 .btn-cta {
+  width: 202px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 2rem; }
+  .btn-cta:hover {
+    color: #FFF; }
+
+.btn-cta-small {
   width: 162px;
-  text-align: center; }
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #33323D;
+  background-color: #fff;
+  border: 1px solid #33323D;
+  padding: 1.2rem;
+  padding-left: 1.2rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  cursor: pointer;
+  padding-left: 2rem; }
+  .btn-cta-small:hover {
+    color: #fff;
+    background-color: #33323D; }
 
 .nav-primary__list-link.cyan {
   color: #5FB4A2; }
@@ -944,6 +969,74 @@ picture.static-previews__picture:nth-child(3) > img:nth-child(3) {
     @media only screen and (min-width: 37.5em) {
       .contact__heading {
         width: 350px; } }
+
+@media only screen and (min-width: 37.5em) {
+  .top-content {
+    border-bottom: 2px solid #e6e3e3;
+    padding-bottom: 2.3rem; } }
+
+@media only screen and (min-width: 62.5em) {
+  .top-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 2px solid #e6e3e3;
+    padding-top: 2.3rem;
+    margin-top: 94px; } }
+
+@media only screen and (min-width: 62.5em) {
+  .top-content__heading {
+    margin: 0; } }
+
+.top-content__social-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.2rem; }
+
+.top-content__icon {
+  filter: invert(85%); }
+
+.input-box input {
+  width: 100%;
+  height: 48px;
+  background-color: #e6e6e6;
+  border: 0;
+  padding: 1rem;
+  margin-top: 1rem; }
+
+.input-box textarea {
+  width: 100%;
+  height: 96px;
+  background-color: #e6e6e6;
+  border: 0;
+  padding: 1rem;
+  margin-top: 1rem; }
+
+.input-box label {
+  color: #33323d; }
+
+.form > input:nth-child(7) {
+  width: 200px;
+  height: 48px;
+  color: #FFF;
+  border: 0;
+  background-color: #203A4C; }
+
+::placeholder {
+  color: #6d6d74; }
+
+.bottom-content {
+  margin-bottom: 2rem; }
+  @media only screen and (min-width: 37.5em) {
+    .bottom-content {
+      margin-bottom: 96px; } }
+  @media only screen and (min-width: 62.5em) {
+    .bottom-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 47px; } }
+
+.submit {
+  cursor: pointer; }
 
 .footer {
   height: 354px;

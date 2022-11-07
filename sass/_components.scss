@@ -49,10 +49,44 @@
 }
 
 .btn-cta {
+    width: 202px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2rem;
+    
+    &:hover {
+        color: #FFF;
+    }
+}
+
+.btn-cta-small {
     width: 162px;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #33323D;
+    background-color: #fff;
+    border: 1px solid #33323D;
+    padding: 1.2rem;
+      padding-left: 1.2rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 2rem;
+  
     
+    
+    &:hover {
+        color: #fff;
+        background-color: #33323D;
+        
+    }
 }
+
+
 
 .nav-primary__list-link.cyan {
     color: $color-cyan;

@@ -994,7 +994,7 @@ picture.static-previews__picture:nth-child(3) > img:nth-child(3) {
   margin-top: 1.2rem; }
 
 .top-content__icon {
-  filter: invert(85%); }
+  cursor: pointer; }
 
 .input-box input {
   width: 100%;
@@ -1010,7 +1010,8 @@ picture.static-previews__picture:nth-child(3) > img:nth-child(3) {
   background-color: #e6e6e6;
   border: 0;
   padding: 1rem;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  resize: none; }
 
 .input-box label {
   color: #33323d; }

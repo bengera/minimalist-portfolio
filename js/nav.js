@@ -20,6 +20,7 @@ githubIcon.addEventListener('mouseout', () => {
 
 })
 
+
 //TWITTER
 const twitterIcon = document.getElementById('twitterIcon');
 
@@ -32,6 +33,8 @@ twitterIcon.addEventListener('mouseout', () => {
     twitterIcon.src = "./images/icons/twitter.svg"
 
 })
+
+
 
 //LINKEDIN
 
@@ -46,6 +49,7 @@ linkedinIcon.addEventListener('mouseout', () => {
     linkedinIcon.src = "./images/icons/linkedin.svg"
 
 })
+
 
 function scrollAbout() {
     let aboutSection = document.querySelector(".about");

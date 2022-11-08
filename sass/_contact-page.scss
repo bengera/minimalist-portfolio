@@ -30,7 +30,10 @@
     }
 
     &__icon {
-        filter: invert(85%);
+       
+        cursor: pointer;
+      
+        
     }
 }
 
@@ -53,7 +56,7 @@
     border: 0;
     padding: 1rem;
     margin-top: 1rem;
-
+    resize: none;
 
 }
 

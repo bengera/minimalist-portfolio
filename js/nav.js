@@ -46,3 +46,10 @@ linkedinIcon.addEventListener('mouseout', () => {
     linkedinIcon.src = "./images/icons/linkedin.svg"
 
 })
+
+function scrollAbout() {
+    let aboutSection = document.querySelector(".about");
+    aboutSection.scrollIntoView(true);
+
+    
+}

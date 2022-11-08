@@ -392,34 +392,40 @@ h2 {
   .btn-primary:hover:before {
     background-color: #52ad9a; } }
 
-.btn-cta {
-  width: 202px;
-  text-align: center;
-  text-decoration: none;
-  padding-left: 2rem; }
-  .btn-cta:hover {
-    color: #FFF; }
-
-.btn-cta-small {
-  width: 162px;
-  text-align: center;
-  text-decoration: none;
+.btn-long,
+.btn-medium,
+.btn-short {
   text-transform: uppercase;
+  text-decoration: none;
   color: #33323D;
   background-color: #fff;
   border: 1px solid #33323D;
   padding: 1.2rem;
-  padding-left: 1.2rem;
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 2px;
-  text-align: left;
   cursor: pointer;
-  padding-left: 2rem; }
-  .btn-cta-small:hover {
-    color: #fff;
-    background-color: #33323D; }
+  display: block;
+  text-align: center; }
+  @media only screen and (min-width: 62.5em) {
+    .btn-long:hover,
+    .btn-medium:hover,
+    .btn-short:hover {
+      background-color: #33323D;
+      color: #FAFAFA; } }
+
+.btn-long {
+  width: 202px; }
+
+.btn-medium {
+  width: 175px; }
+
+.btn-short {
+  width: 162px; }
+  @media only screen and (min-width: 37.5em) {
+    .btn-short {
+      padding-left: 2rem; } }
 
 .nav-primary__list-link.cyan {
   color: #5FB4A2; }
@@ -443,11 +449,6 @@ h2 {
     .btn-secondary:hover {
       background-color: #33323D;
       color: #FAFAFA; } }
-
-button.about {
-  width: 202px;
-  text-decoration: none;
-  padding-left: 2rem; }
 
 .description-text {
   color: #33323D;

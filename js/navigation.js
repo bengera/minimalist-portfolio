@@ -13,7 +13,7 @@ class Navigation extends HTMLElement {
       <ul class="nav-primary">
         <li class="nav-primary__list-item"><a href="./index.html" id="home-link" class="nav-primary__list-link cyan">Home</a></li>
         <li class="nav-primary__list-item"><a href="./portfolio.html" class="nav-primary__list-link">Portfolio</a></li>
-        <li class="nav-primary__list-item"><a href="#" class="nav-primary__list-link">Contact me</a></li>
+        <li class="nav-primary__list-item"><a href="./contact.html" class="nav-primary__list-link">Contact me</a></li>
       </ul>
     </div>
   </nav>

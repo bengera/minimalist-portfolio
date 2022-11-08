@@ -12,7 +12,7 @@ class Contact extends HTMLElement {
     </div>
     <div class="contact__line"></div>
     <div class="contact__right-content">
-    <a href="contact.html" class="about btn-cta-small">Contact me</a>
+    <a href="contact.html" class="about btn-short">Contact me</a>
     </div>
   </section>
     `

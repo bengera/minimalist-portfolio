@@ -1,5 +1,5 @@
 .about {
-    // max-width: 325px;
+
     margin-bottom: 65px;
     margin: 0 auto;
 
@@ -9,7 +9,7 @@
         margin: 0;
     }
 
-    &__left-content {}
+    // &__left-content {}
 
     &__profile {
         border-bottom: 2px solid #e6e3e3;
@@ -47,6 +47,7 @@
 
     &__heading {
         margin: 0.67em 0;
+
         @media only screen and (min-width: $bp-tablet) {
             margin-top: 51px;
         }
@@ -92,14 +93,3 @@ button.about:nth-child(3) {
 
     }
 }
-
-
-   
-
-
-
-// section.about {
-//     @media only screen and (min-width: $bp-tablet) {
-//         display: flex;
-//     }
-// }

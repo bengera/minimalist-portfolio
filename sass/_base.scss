@@ -11,7 +11,6 @@ sans-serif;
 $font-secondary: 'Public Sans',
 sans-serif;
 
-// $bp-tablet: 45.3125em;
 $bp-tablet : 37.5em; //600
 $bp-desktop : 62.5em; //1000
 
@@ -53,7 +52,7 @@ body {
 
 
 main {
-    // max-width: 1920px;
+
     padding: 0 1.8rem;
 
 
@@ -67,7 +66,7 @@ h2 {
     font-weight: 700;
     line-height: 42px;
     letter-spacing: -0.3571428656578064px;
-    // margin: 0.67em 0;
+
 
 }
 
@@ -98,5 +97,3 @@ h2 {
 
     text-decoration: none;
 }
-
-
